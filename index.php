@@ -76,7 +76,7 @@
             <?php } ?>
         </div>
     </div>
-    <form action="tes2.php" method="GET">
+    <form action="bandingkan.php" method="GET">
     	<button class="compare-btn" disabled>Perbandingkan</button>
     </form>
 
