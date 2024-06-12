@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.store-name h1 {
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Adjust card width as needed */
+    min-width: 250px; /* Minimum width for card */
+    margin: 0 10px 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%; /* Make image fill the card */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.compare-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compare-btn:hover {
+    background-color: #0056b3;
+}
