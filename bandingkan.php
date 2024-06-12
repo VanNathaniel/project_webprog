@@ -22,6 +22,6 @@
              ?>
         </div>
     </div>
-    <a href="tes.php" class="back-btn">&#8810 Kembali</a>
+    <a href="index.php" class="back-btn">&#8810 Kembali</a>
 </body>
 </html>
